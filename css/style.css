@@ -16,13 +16,20 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+a {
   font-family: "IBM Plex Mono", monospace;
   color: white;
 }
 
 .border-bottom {
   border-bottom: 1px solid #cfd2b2;
+}
+
+.list-of-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -34,9 +41,6 @@ nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-list a {
@@ -73,4 +77,24 @@ main {
 }
 
 .home-page-article {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer ul a {
+  color: black;
+  border: 1px solid #222429;
+  border-right: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfd2b2;
 }
