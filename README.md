@@ -4,9 +4,9 @@
 
 ## Purpose
 
-This website was created to leverage online presence and as an example work for potential employers. It demonstrates my skills as a webdeveloper and describes my skilss, personality and work expirience.
+This website was created to leverage online presence and as an example work for potential employers. It demonstrates my skills as a webdeveloper and describes personality and work expirience.
 
-## Features
+## Features (to do)
 
 ## Sitemap
 
