@@ -81,6 +81,7 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  font-weight: bold;
 }
 
 .nav-button>div:nth-child(odd) {
@@ -93,6 +94,76 @@ main {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+}
+
+/* -----------------CV page------------------ */
+.cv-section {
+  margin: 20px 6px;
+  width: 75ch;
+}
+
+.cv-header {
+  display: flex;
+  background-color: #cfd2b2;
+}
+
+.cv-header>h1 {
+  width: 100%;
+  margin: 0;
+  color: #222429;
+}
+
+.section-header {
+  border-bottom: 1px solid #222429;
+  margin-bottom: 10px;
+}
+
+.section-header>h1>span {
+  font-size: 64px;
+}
+
+.article-header {
+  padding-left: 3px;
+}
+
+.article-header>h1>span {
+  font-size: 48px;
+}
+
+.cv-header a {
+  text-decoration: none;
+}
+
+.cv-header a:hover {
+  text-decoration: underline;
+  color: #222429;
+}
+
+.cv-header a>h1 {
+  font-size: 16px;
+  color: #222429;
+  margin: 0 10px 0 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.cv-header>h1>span {
+  font-weight: bold;
+  border-right: 1px solid #222429;
+  color: #222429;
+  margin-right: 5px;
+  padding-right: 4px;
+}
+
+.cv-article {
+  border-left: 1px solid #cfd2b2;
+}
+
+.cv-article>p {
+  font-size: 14px;
+  margin: 0;
+  padding: 8px 4px;
 }
 
 /* -----------------Footer------------------ */
@@ -129,6 +200,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
 .social-link-name {
@@ -201,5 +273,9 @@ main {
 
   .social-link-icon {
     flex-basis: 25px;
+  }
+
+  .cv-article>p {
+    font-size: 17px;
   }
 }
