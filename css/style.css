@@ -166,6 +166,57 @@ main {
   padding: 8px 4px;
 }
 
+/* -----------------About page------------------ */
+.about-section {
+  margin: 5px;
+}
+
+.about-section-header {
+  background-color: #cfd2b2;
+  padding: 20px 0;
+}
+
+.about-section-header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #222429;
+}
+
+.hard-skills-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skill-cell {
+  display: flex;
+  border-top: 1px solid #222429;
+  border-right: 1px solid #222429;
+  padding: 4px;
+  flex-direction: column;
+  height: 100px;
+  background-color: #cfd2b2;
+  flex: 0 0 100px;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.skill-icon {
+  height: 50%;
+  flex-grow: 1;
+}
+
+.skill-number,
+.skill-name {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: small;
+}
+
+.skill-name {
+  text-align: end;
+}
+
 /* -----------------Footer------------------ */
 .social-links-wrapper {
   display: grid;
@@ -277,5 +328,18 @@ main {
 
   .cv-article>p {
     font-size: 17px;
+  }
+
+  .about-section {
+    width: 720px;
+  }
+
+  .about-section-header>h1 {
+    font-size: x-large;
+  }
+
+  .skill-cell {
+    flex: 0 0 150px;
+    height: 150px;
   }
 }
