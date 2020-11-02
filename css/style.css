@@ -264,7 +264,7 @@ main {
 }
 
 .social-link-icon {
-  flex: 0 0 20px;
+  width: 20px;
   align-self: flex-start;
 }
 
@@ -323,7 +323,7 @@ main {
   }
 
   .social-link-icon {
-    flex-basis: 25px;
+    width: 25px;
   }
 
   .cv-article>p {
