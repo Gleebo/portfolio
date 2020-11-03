@@ -217,6 +217,75 @@ main {
   text-align: end;
 }
 
+/* -----------------Blog page------------------ */
+.blog-section {
+  width: 100%;
+  margin: 20px 5px;
+}
+
+.blog-section-header {
+  background-color: #b2d2b8;
+}
+
+.blog-section-header h1,
+span {
+  color: black;
+}
+
+.blog-section-header span {
+  margin-right: 3px;
+  padding-right: 3px;
+  font-size: 48px;
+  font-weight: bold;
+  border-right: 1px solid #222429;
+}
+
+.blog-post {
+  border: 1px solid #b2d2b8;
+  border-top: none;
+  margin-top: 10px;
+}
+
+.blog-post p {
+  padding: 8px;
+  margin: 0;
+}
+
+.blog-post-header h1 {
+  border-bottom: 1px solid #222429;
+}
+
+.blog-post-header h1,
+h2 {
+  margin: 0;
+  color: black;
+  background-color: #b2d2b8;
+}
+
+.blog-post-header h1 span {
+  margin-right: 3px;
+  padding-right: 3px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-right: 1px solid #222429;
+}
+
+.blog-post-header h2 {
+  display: flex;
+  border-bottom: 1px solid #222429;
+}
+
+.blog-post-header h2 span {
+  border-right: 1px solid #222429;
+  font-size: 28px;
+  padding: 4px;
+}
+
+.blog-post-header img {
+  width: 100%;
+}
+
 /* -----------------Footer------------------ */
 .social-links-wrapper {
   display: grid;
@@ -285,7 +354,7 @@ main {
 }
 
 /* -----------------Media Queries------------------ */
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 460px) {
   .nav-list a {
     flex: 0 0 100px;
     height: 100px;
@@ -300,6 +369,30 @@ main {
 
   .home-page-heading {
     font-size: calc(2rem + 2vw);
+  }
+
+  .blog-section {
+    width: 75%;
+  }
+
+  .blog-posts-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .blog-section-header,
+  .blog-post {
+    margin-left: 20px;
+  }
+
+  .blog-post {
+    flex: 0 0 320px;
+  }
+
+  .blog-post img {
+    height: 250px;
+    object-fit: cover;
   }
 }
 
@@ -341,5 +434,11 @@ main {
   .skill-cell {
     flex: 0 0 150px;
     height: 150px;
+  }
+}
+
+@media screen and (min-width: 907px) {
+  .blog-posts-wrapper {
+    justify-content: start;
   }
 }
