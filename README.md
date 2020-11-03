@@ -1,6 +1,6 @@
-# Link to portfolio (to do)
+# [Portfolio website](https://glebtsoy.netlify.app/index.html)
 
-# Link to github repo (to do)
+# [Github repo](https://github.com/Gleebo/portfolio)
 
 ## Purpose
 
@@ -16,7 +16,7 @@ This website was created to leverage online presence and as an example work for 
 
 ## Target audience
 
-This website is intended for web development employers
+This website is intended for web developer employers
 
 ## Tech stack
 
