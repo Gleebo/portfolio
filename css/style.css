@@ -25,6 +25,18 @@ a {
   color: white;
 }
 
+.back-to-top-link {
+  position: fixed;
+  left: 20px;
+  bottom: 30px;
+  opacity: 50%;
+  transition: opacity 250ms ease-in;
+}
+
+.back-to-top-link:hover {
+  opacity: 100%;
+}
+
 /* -----------------Header------------------ */
 .list-of-links {
   list-style: none;
