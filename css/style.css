@@ -88,8 +88,9 @@ a {
   font-size: 14px;
 }
 
-/* -----------------Home Page Main------------------ */
+/* -----------------Main------------------ */
 main {
+  margin: 50px 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +99,6 @@ main {
 
 /* -----------------CV page------------------ */
 .cv-section {
-  margin: 20px 6px;
   width: 75ch;
 }
 
@@ -167,9 +167,6 @@ main {
 }
 
 /* -----------------About page------------------ */
-.about-section {
-  margin: 5px;
-}
 
 .about-section-header {
   background-color: #cfd2b2;
@@ -220,7 +217,6 @@ main {
 /* -----------------Blog page------------------ */
 .blog-section {
   width: 100%;
-  margin: 20px 5px;
 }
 
 .blog-section-header {
