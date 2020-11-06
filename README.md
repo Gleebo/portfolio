@@ -18,7 +18,7 @@ The social links in `footer` of the `body` are functional hyperlinks that open r
 
 #### Back to top link
 
-A link with `position: fixed`located at the bottom left corner of the each page that takes the webpage back to navigation menu at the top. It is semi-transparen unless hovered over to make it less distracting.
+A link with `position: fixed` located at the bottom left corner of each page that scrolls the webpage back to navigation menu at the top. It is semi-transparen unless hovered over to make it less distracting.
 
 #### Hard Skills table
 
