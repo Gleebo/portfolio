@@ -227,6 +227,8 @@ main {
 }
 
 /* -----------------Blog page------------------ */
+
+/* blog section */
 .blog-section {
   width: 100%;
 }
@@ -248,6 +250,7 @@ span {
   border-right: 1px solid #222429;
 }
 
+/* blog post */
 .blog-post {
   border: 1px solid #b2d2b8;
   border-top: none;
