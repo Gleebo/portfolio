@@ -24,6 +24,8 @@ A link with `position: fixed` located at the bottom left corner of each page tha
 
 The table demonstrates hard skills of the developer and is stylized as a periodic table. To make table responsive it was made with `flex` layout with `wrap` property to automatically adjust to appopriate screen widths.
 
+#### Download resume button (to do)
+
 #### Blog posts
 
 Blog post list was created with `flex` layout with `wrap` property and has media queires to make it easy to read on a various screen resolutions.
@@ -52,23 +54,31 @@ Blog page containts developer's blog posts on various topics.
 
 ## Screenshots
 
+![home page wireframe](./docs/wireframes/home.png)
+
+![cv page wireframe](./docs/wireframes/cv.png)
+
+![about me page wireframe](./docs/wireframes/about-me.png)
+
+![blog page wireframe](./docs/wireframes/blog.png)
+
 ![navigation bar](./docs/nav-bar.png)
 
-![Social links](./docs/social-links.png)
+![social links](./docs/social-links.png)
 
-![Social links](./docs/blog-post.png)
+![blog-post](./docs/blog-post.png)
 
-![Social links](./docs/skills.png)
+![skills](./docs/skills.png)
 
-![Social links](./docs/Resume.png)
+![resume](./docs/Resume.png)
 
-![Social links](./docs/home-page.png)
+![home-page](./docs/home-page.png)
 
-![Social links](./docs/cv-page.png)
+![cv-page](./docs/cv-page.png)
 
-![Social links](./docs/about-page.png)
+![about-page](./docs/about-page.png)
 
-![Social links](./docs/blog-page.png)
+![blog-page](./docs/blog-page.png)
 
 ## Target audience
 
