@@ -37,6 +37,11 @@ a {
   opacity: 100%;
 }
 
+menu {
+  padding: 0;
+  margin: 0;
+}
+
 /* -----------------Header------------------ */
 .list-of-links {
   list-style: none;
@@ -298,6 +303,7 @@ h2 {
 }
 
 /* -----------------Footer------------------ */
+
 .social-links-wrapper {
   padding: 0;
   display: grid;
