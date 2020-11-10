@@ -53,8 +53,8 @@ nav ul {
 }
 
 nav a {
-  width: 25vw;
-  height: 25vw;
+  width: calc(25vw - 1px);
+  height: calc(25vw - 1px);
   display: flex;
   flex-direction: column;
   border-right: 1px solid #cfd2b2;
@@ -85,7 +85,7 @@ nav li div:nth-child(2) {
 }
 
 nav li div:nth-child(odd) {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .current-page {
@@ -296,8 +296,8 @@ footer ul {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 80px);
-  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: repeat(3, 75px);
   justify-content: center;
   gap: 1px;
   grid-template-areas:
@@ -359,6 +359,17 @@ footer a div:last-of-type {
 }
 
 /* -----------------Media Queries------------------ */
+@media screen and (min-width: 360px) {
+  nav li div:nth-child(odd) {
+    font-size: 0.9rem;
+  }
+
+  footer ul {
+    grid-template-columns: repeat(4, 85px);
+    grid-template-rows: repeat(3, 85px);
+  }
+}
+
 @media screen and (min-width: 460px) {
   nav a {
     width: 115px;
@@ -405,8 +416,8 @@ footer a div:last-of-type {
 
 @media screen and (min-width: 760px) {
   footer ul {
-    grid-template-columns: repeat(4, 120px);
-    grid-template-rows: repeat(3, 120px);
+    grid-template-columns: repeat(4, 110px);
+    grid-template-rows: repeat(3, 110px);
   }
 
   footer a img {
