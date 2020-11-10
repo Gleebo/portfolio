@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This website was created to leverage online presence and as an example work for potential employers. It demonstrates my skills as a webdeveloper and describes personality and work expirience.
+This website was created to leverage online presence and as an example work for potential employers. It demonstrates the creator's skills as a web developer and describes the personality and work experience.
 
 ## Features (to do)
 
@@ -32,11 +32,11 @@ Blog post list was created with `flex` layout with `wrap` property and has media
 
 #### Home page
 
-A landing page of the website that greets user and shortly idtroduces the developer and purpose of this website.
+The landing page of the website that greets user and shortly introduces the developer and the purpose of this website.
 
 #### Resume page
 
-The resume page contains a short version of the developer's resume and also has a button to download the full version in PDF format.
+The resume page contains a short version of the developer's CV and a button to download the full version in PDF format.
 
 #### About me page
 
