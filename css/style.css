@@ -43,66 +43,53 @@ menu {
 }
 
 /* -----------------Header------------------ */
-.list-of-links {
+nav ul {
+  margin: 1px;
   list-style: none;
-  margin: 0;
   padding: 0;
-}
-
-.nav-list {
-  height: inherit;
+  margin: 0;
   display: flex;
-  align-items: center;
-  flex-shrink: 0;
+  border: 1px solid #cfd2b2;
 }
 
-.nav-list a {
-  text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
-  color: white;
-  flex: 1 1 25vw;
+nav a {
+  width: 25vw;
   height: 25vw;
-  border: 1px solid #cfd2b2;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #cfd2b2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #cfd2b2;
+  color: black;
+}
+
+nav li:last-child a {
   border-right: none;
+}
+
+nav li div:last-child {
+  text-align: end;
+}
+
+nav li div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav li div:nth-child(odd) {
+  font-size: 0.9rem;
+  padding: 2px;
 }
 
 .current-page {
   text-decoration: underline;
-}
-
-.nav-list a:last-child {
-  border-right: 1px solid #cfd2b2;
-}
-
-.nav-list a:hover {
-  color: black;
-  text-decoration: underline;
-  background-color: #cfd2b2;
-}
-
-.nav-button {
-  padding: 3px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-}
-
-.nav-button>div:last-child {
-  text-align: end;
-}
-
-.nav-button>div:nth-child(2) {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.nav-button>div:nth-child(odd) {
-  font-size: 14px;
 }
 
 /* -----------------Main------------------ */
@@ -373,16 +360,18 @@ h2 {
 
 /* -----------------Media Queries------------------ */
 @media screen and (min-width: 460px) {
-  .nav-list a {
-    flex: 0 0 100px;
-    height: 100px;
-    border-bottom: none;
-    border-top: none;
+
+  nav a {
+    width: 115px;
+    height: 115px;
   }
 
-  nav {
-    border: 1px solid #cfd2b2;
-    border-left: none;
+  nav li:last-child a {
+    border-right: 1px solid #cfd2b2;
+  }
+
+  nav li div:nth-child(2) {
+    font-size: 3rem;
   }
 
   .home-page-heading {
