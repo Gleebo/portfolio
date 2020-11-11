@@ -106,6 +106,11 @@ main {
   width: 75ch;
 }
 
+.cv-section h2 {
+  background: #cfd2b2;
+  margin-top: 1px;
+}
+
 .cv-header {
   display: flex;
   background-color: #cfd2b2;
@@ -168,6 +173,17 @@ main {
   font-size: 14px;
   margin: 0;
   padding: 8px 4px;
+}
+
+.job-responsibilities {
+  margin-top: 10px;
+  padding-left: 2rem;
+  color: white;
+  font-family: "IBM Plex Mono";
+}
+
+.job-responsibilities>*+* {
+  margin-top: 5px;
 }
 
 /* -----------------About page------------------ */
