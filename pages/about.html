@@ -1,135 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../css/style.css"
+      integrity="sha512-+sqUp+cMBrakxKH+s372lNUeXKjy8dzqV34ymifNeVVrkBnbAs3CZ0tB7V26FF/3YZ1BLbcQAGP3OIuMoga9BA=="
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon" />
+    <title>Gleb Tsoy | About</title>
+    <meta
+      name="description"
+      content="Gleb Tsoy, web developer, find out more about me"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
-    rel="stylesheet" />
-  <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon" />
-  <title>Gleb Tsoy | About</title>
-  <meta name="description" content="Gleb Tsoy, web developer, find out more about me">
-</head>
+  <body>
+    <!-- ----------------------------Navigation------------------------- -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">
+              <div>1</div>
+              <div>Hm</div>
+              <div>Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="cv.html">
+              <div>2</div>
+              <div>Cv</div>
+              <div>Resume</div>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="current-page">
+              <div>3</div>
+              <div>Ab</div>
+              <div>About me</div>
+            </a>
+          </li>
+          <li>
+            <a href="blog.html">
+              <div>4</div>
+              <div>Bl</div>
+              <div>Blog</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <!-- ----------------------------Navigation------------------------- -->
-  <header>
-    <nav>
+    <main>
+      <section class="about-section">
+        <!-- ---------------------------Hard skills---------------------------- -->
+        <header class="about-section-header">
+          <h1>Periodic table of hard skills</h1>
+        </header>
+        <div class="hard-skills-wrapper">
+          <div class="skill-cell">
+            <div class="skill-number">1</div>
+            <img src="../img/html5.svg" alt="" class="skill-icon" />
+            <div class="skill-name">HTML</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">2</div>
+            <img src="../img/css3.svg" alt="" class="skill-icon" />
+            <div class="skill-name">CSS</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">3</div>
+            <img src="../img/javascript.svg" alt="" class="skill-icon" />
+            <div class="skill-name">JavaScript</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">4</div>
+            <img src="../img/sass.svg" alt="" class="skill-icon" />
+            <div class="skill-name">Sass</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">5</div>
+            <img src="../img/ruby.svg" alt="" class="skill-icon" />
+            <div class="skill-name">Ruby</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">6</div>
+            <img src="../img/react.svg" alt="" class="skill-icon" />
+            <div class="skill-name">React</div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-number">7</div>
+            <img src="../img/git.svg" alt="" class="skill-icon" />
+            <div class="skill-name">Git</div>
+          </div>
+        </div>
+      </section>
+      <div class="back-to-top-link"><a href="#top">To top</a></div>
+    </main>
+
+    <footer>
+      <!-- ----------------------------Social links--------------------------- -->
       <ul>
-        <li>
-          <a href="../index.html">
-            <div>1</div>
-            <div>Hm</div>
-            <div>Home</div>
+        <li id="gh">
+          <a href="https://github.com/Gleebo">
+            <img src="../img/github.svg" alt="picture of github icon" />
+            <div>Gh</div>
+            <div>Github</div>
           </a>
         </li>
-        <li>
-          <a href="cv.html">
-            <div>2</div>
-            <div>Cv</div>
-            <div>Resume</div>
+        <li id="li">
+          <a href="https://www.linkedin.com/in/gleb-tsoy/">
+            <img src="../img/linkedin.svg" alt="picture of linkedin icon" />
+            <div>Li</div>
+            <div>Linkedin</div>
           </a>
         </li>
-        <li>
-          <a href="about.html" class="current-page">
-            <div>3</div>
-            <div>Ab</div>
-            <div>About me</div>
+        <li id="fb">
+          <a href="https://www.facebook.com/profile.php?id=100009730934286">
+            <img src="../img/facebook.svg" alt="picture of facebook icon" />
+            <div>Fb</div>
+            <div>Facebook</div>
           </a>
         </li>
-        <li>
-          <a href="blog.html">
-            <div>4</div>
-            <div>Bl</div>
-            <div>Blog</div>
+        <li id="gm">
+          <a href="mailto: gleb.tsoy754@gmail.com">
+            <img src="../img/gmail.svg" alt="picture of gmail icon" />
+            <div>Gm</div>
+            <div>Gmail</div>
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="about-section">
-      <!-- ---------------------------Hard skills---------------------------- -->
-      <header class="about-section-header">
-        <h1>Periodic table of hard skills</h1>
-      </header>
-      <div class="hard-skills-wrapper">
-        <div class="skill-cell">
-          <div class="skill-number">1</div>
-          <img src="../img/html5.svg" alt="" class="skill-icon" />
-          <div class="skill-name">HTML</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">2</div>
-          <img src="../img/css3.svg" alt="" class="skill-icon" />
-          <div class="skill-name">CSS</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">3</div>
-          <img src="../img/javascript.svg" alt="" class="skill-icon" />
-          <div class="skill-name">JavaScript</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">4</div>
-          <img src="../img/sass.svg" alt="" class="skill-icon" />
-          <div class="skill-name">Sass</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">5</div>
-          <img src="../img/ruby.svg" alt="" class="skill-icon" />
-          <div class="skill-name">Ruby</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">6</div>
-          <img src="../img/react.svg" alt="" class="skill-icon" />
-          <div class="skill-name">React</div>
-        </div>
-        <div class="skill-cell">
-          <div class="skill-number">7</div>
-          <img src="../img/git.svg" alt="" class="skill-icon" />
-          <div class="skill-name">Git</div>
-        </div>
-      </div>
-    </section>
-    <div class="back-to-top-link"><a href="#top">To top</a></div>
-  </main>
-
-  <footer>
-    <!-- ----------------------------Social links--------------------------- -->
-    <ul>
-      <li id="gh">
-        <a href="https://github.com/Gleebo">
-          <img src="../img/github.svg" alt="picture of github icon" />
-          <div>Gh</div>
-          <div>Github</div>
-        </a>
-      </li>
-      <li id="li">
-        <a href="https://www.linkedin.com/in/gleb-tsoy/">
-          <img src="../img/linkedin.svg" alt="picture of linkedin icon" />
-          <div>Li</div>
-          <div>Linkedin</div>
-        </a>
-      </li>
-      <li id="fb">
-        <a href="https://www.facebook.com/profile.php?id=100009730934286">
-          <img src="../img/facebook.svg" alt="picture of facebook icon" />
-          <div>Fb</div>
-          <div>Facebook</div>
-        </a>
-      </li>
-      <li id="gm">
-        <a href="mailto: gleb.tsoy754@gmail.com">
-          <img src="../img/gmail.svg" alt="picture of gmail icon" />
-          <div>Gm</div>
-          <div>Gmail</div>
-        </a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

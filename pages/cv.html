@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../css/style.css"
+      integrity="sha512-+sqUp+cMBrakxKH+s372lNUeXKjy8dzqV34ymifNeVVrkBnbAs3CZ0tB7V26FF/3YZ1BLbcQAGP3OIuMoga9BA=="
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../favicon-16x16.png"
+      type="image/x-icon"
+      integrity="sha512-D2CLYjgHCHurx0fYuu+fenZKO7w+or0m08DFUiyekHJsCGa6XKnxlajl37Bs+6D/BqSbm8SeDGgM3Jd18QO14A=="
+    />
+    <title>Gleb Tsoy | CV</title>
+    <meta
+      name="description"
+      content="Gleb Tsoy, web developer portfolio website resume"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
-    rel="stylesheet" />
-  <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon" />
-  <title>Gleb Tsoy | CV</title>
-  <meta name="description" content="Gleb Tsoy, web developer portfolio website resume">
-</head>
+  <body>
+    <header>
+      <!-- -------------------------------Navigation----------------------------- -->
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">
+              <div>1</div>
+              <div>Hm</div>
+              <div>Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="cv.html" class="current-page">
+              <div>2</div>
+              <div>Cv</div>
+              <div>Resume</div>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <div>3</div>
+              <div>Ab</div>
+              <div>About me</div>
+            </a>
+          </li>
+          <li>
+            <a href="blog.html">
+              <div>4</div>
+              <div>Bl</div>
+              <div>Blog</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <!-- -------------------------------Navigation----------------------------- -->
-    <nav>
+    <main>
+      <section class="cv-section">
+        <!-- ----------------------------Resume --------------------------------->
+        <header class="cv-header section-header">
+          <h1><span>Re</span>sume</h1>
+          <a href="../cv.pdf" download>
+            <h1>Download</h1>
+          </a>
+        </header>
+        <article class="cv-article">
+          <header class="cv-header article-header">
+            <h1><span>Ed</span>ucation</h1>
+          </header>
+          <h2>JCU 2015-2017</h2>
+          <p>Bachelor of IT</p>
+          <h2>USYD 2018-2020</h2>
+          <p>Master of IT Management</p>
+        </article>
+        <article class="cv-article">
+          <header class="cv-header article-header">
+            <h1><span>Em</span>mployment history</h1>
+          </header>
+          <h2>Full stack engineer at Atlassian</h2>
+          <ul class="job-responsibilities">
+            <li>Methodically developed new React components</li>
+            <li>
+              Successfully updated accessibility features and improved
+              lighthouse score to 99
+            </li>
+            <li>
+              Displayed excellent teamwork skills while working in a team of 15
+            </li>
+          </ul>
+        </article>
+      </section>
+      <div class="back-to-top-link"><a href="#top">To top</a></div>
+    </main>
+
+    <footer>
+      <!-- ----------------------Social links-------------------------- -->
       <ul>
-        <li>
-          <a href="../index.html">
-            <div>1</div>
-            <div>Hm</div>
-            <div>Home</div>
+        <li id="gh">
+          <a href="https://github.com/Gleebo">
+            <img src="../img/github.svg" alt="picture of github icon" />
+            <div>Gh</div>
+            <div>Github</div>
           </a>
         </li>
-        <li>
-          <a href="cv.html" class="current-page">
-            <div>2</div>
-            <div>Cv</div>
-            <div>Resume</div>
+        <li id="li">
+          <a href="https://www.linkedin.com/in/gleb-tsoy/">
+            <img src="../img/linkedin.svg" alt="picture of linkedin icon" />
+            <div>Li</div>
+            <div>Linkedin</div>
           </a>
         </li>
-        <li>
-          <a href="about.html">
-            <div>3</div>
-            <div>Ab</div>
-            <div>About me</div>
+        <li id="fb">
+          <a href="https://www.facebook.com/profile.php?id=100009730934286">
+            <img src="../img/facebook.svg" alt="picture of facebook icon" />
+            <div>Fb</div>
+            <div>Facebook</div>
           </a>
         </li>
-        <li>
-          <a href="blog.html">
-            <div>4</div>
-            <div>Bl</div>
-            <div>Blog</div>
+        <li id="gm">
+          <a href="mailto: gleb.tsoy754@gmail.com">
+            <img src="../img/gmail.svg" alt="picture of gmail icon" />
+            <div>Gm</div>
+            <div>Gmail</div>
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="cv-section">
-      <!-- ----------------------------Resume --------------------------------->
-      <header class="cv-header section-header">
-        <h1><span>Re</span>sume</h1>
-        <a href="../cv.pdf" download>
-          <h1>Download</h1>
-        </a>
-      </header>
-      <article class="cv-article">
-        <header class="cv-header article-header">
-          <h1><span>Ed</span>ucation</h1>
-        </header>
-        <h2>JCU 2015-2017</h2>
-        <p>
-          Bachelor of IT
-        </p>
-        <h2>USYD 2018-2020</h2>
-        <p>
-          Master of IT Management
-        </p>
-      </article>
-      <article class="cv-article">
-        <header class="cv-header article-header">
-          <h1><span>Em</span>mployment history</h1>
-        </header>
-        <h2>Full stack engineer at Atlassian</h2>
-        <ul class="job-responsibilities">
-          <li>
-            Methodically developed new React components
-          </li>
-          <li>
-            Successfully updated accessibility features and improved lighthouse score to 99
-          </li>
-          <li>
-            Displayed excellent teamwork skills while working in a team of 15
-          </li>
-        </ul>
-      </article>
-    </section>
-    <div class="back-to-top-link"><a href="#top">To top</a></div>
-  </main>
-
-  <footer>
-    <!-- ----------------------Social links-------------------------- -->
-    <ul>
-      <li id="gh">
-        <a href="https://github.com/Gleebo">
-          <img src="../img/github.svg" alt="picture of github icon" />
-          <div>Gh</div>
-          <div>Github</div>
-        </a>
-      </li>
-      <li id="li">
-        <a href="https://www.linkedin.com/in/gleb-tsoy/">
-          <img src="../img/linkedin.svg" alt="picture of linkedin icon" />
-          <div>Li</div>
-          <div>Linkedin</div>
-        </a>
-      </li>
-      <li id="fb">
-        <a href="https://www.facebook.com/profile.php?id=100009730934286">
-          <img src="../img/facebook.svg" alt="picture of facebook icon" />
-          <div>Fb</div>
-          <div>Facebook</div>
-        </a>
-      </li>
-      <li id="gm">
-        <a href="mailto: gleb.tsoy754@gmail.com">
-          <img src="../img/gmail.svg" alt="picture of gmail icon" />
-          <div>Gm</div>
-          <div>Gmail</div>
-        </a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
